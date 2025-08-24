@@ -1,6 +1,6 @@
 # compile OrangeFox Recovery with Github Actions
 ```
-only Supports OrangeFox   12.1 / 11 
+only Supports OrangeFox  (14.1 is not ready yet) / 12.1 / 11 
 ```
 ![cap_sprout](https://wiki.orangefox.tech/banner.svg)
 ---
@@ -35,6 +35,9 @@ OrangeFox Recovery was originally designed for Xiaomi Redmi Note 4X Snapdragon (
 
 ## Release Notes
 ```
+= 2025-07-19
+- fix problem with device tree link in release!
+
 = 2024-10-21
 - Fix issue with Snapdragon Gen 7/8 devices
 
