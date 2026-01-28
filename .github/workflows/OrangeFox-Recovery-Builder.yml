@@ -86,7 +86,6 @@ jobs:
         sudo apt update
         sudo apt -y upgrade
         git clone https://gitlab.com/OrangeFox/misc/scripts
-        export OF_USE_LZMA_COMPRESSION=1
         cd scripts
         sudo bash setup/android_build_env.sh
       
@@ -122,6 +121,7 @@ jobs:
         set +e
         source build/envsetup.sh
         export ALLOW_MISSING_DEPENDENCIES=true
+        export OF_USE_LZMA_COMPRESSION=1
         set -e
         ${{ steps.fox_branch.outputs.value }}
 
